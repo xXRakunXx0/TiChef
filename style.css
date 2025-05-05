@@ -1,0 +1,225 @@
+/* Réinitialise le box model pour tous les éléments, 
+   et supprime les marges et paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Background color */
+
+.bgcRed {
+    background-color: red;
+}
+
+/* ------ Flex ------ */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+
+/* MARGIN/PADDING */
+.top20 {
+    margin-top: 20px;
+}
+
+.top60 {
+    margin-top: 60px;
+}
+
+.top100 {
+    margin-top: 100px;
+
+}
+
+.ptb64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.padding5 {
+    padding: 5px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.padding2 {
+    padding: 2px;
+}
+
+/*########################*/
+
+/* Header */
+
+.ligne {
+    border-bottom: 1px solid black;
+}
+
+.menu {
+    width: 30%;
+}
+
+.hauteur {
+    width: 100px;
+}
+
+.plusnone {
+    list-style: none;
+}
+
+.txtDecoNone {
+    text-decoration: none;
+}
+
+.btm {
+    border-radius: 16px;
+    border: #FD8D5D solid;
+    padding: 5px;
+}
+
+
+/* WIDTH */
+.w50 {
+    width: 50%;
+}
+
+.w48 {
+    width: 48%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+
+/* Color */
+
+.Orenge {
+    color: #FD8D5D;
+}
+
+.Orenge2{
+    color: #FFD8C7;
+}
+
+.White{
+    color: white;
+}
+
+.Black {
+    color: black;
+}
+
+.rond{
+    background-color: #FFD8C7;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+}
+
+.Gap{
+    gap: 6px;
+}
+
+.Gap2{
+    gap: 10px;
+}
+
+.Gap3{
+    gap: 200px;
+}
+
+.Shadow{
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 16px;
+}
+
+.bgcOrenge{
+    background-color: #FD8D5D;
+    padding: 5px;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.bgcOrenge2{
+    background-color: #FD8D5D;
+    padding: 50px;
+}
+
+
+
+.image{
+    display: block;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.image2{
+    border-radius: 16px;
+}
