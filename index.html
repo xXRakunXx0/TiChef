@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ti Chef</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,8 +25,13 @@
         </nav>
     </header>
     <main>
-        <h1 class="Orenge textCenter top20">Toutes vos recettes en un clic !</h1>
-        <section class="Shadow container padding20 top20">
+        <div class="top100 textCenter">
+            <input type="Rechercher" name="rechercher" id="rechercher" placeholder="Rechercher votre recette" class="input">
+        </div>
+        <h1 class="Orenge textCenter top20 top100">Toutes vos recettes en un clic !</h1>
+        <div id="CarteParrant"></div>
+        <!-- Ma Section ces ma carte  -->
+        <!-- <section class="Shadow container padding20 top20">
             <div class="flex Gap alignCenter w30">
                 <h2 class="Orenge">Poulet au curry</h2>
                 <a href=""><img src="asset/like.png" alt="" class="rond"></a>
@@ -106,7 +112,26 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </section> -->
+        <div id="containerCarte"></div>
+        <!--  <section class="top20 flex">
+            <div class="w40 flex CarteListe">
+                <img src="asset/chien.jpg" alt="" class="w40">
+                <div class="w40">
+                    <h2 class="h2">Afficher les article</h2>
+                    <div class="flex spaceAround top20">
+                        <p>
+                            01/07/25
+                        </p>
+                        <p>
+                            Auteur
+                        </p>
+                    </div>
+                    <p class="top20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore delectus cupiditate non corporis facere ea excepturi.</p>
+                    <a href="" class="btm2">Lire l'article</a>
+                </div>
+            </div>
+        </section>-->
     </main>
     <footer class="bgcOrenge2 top100 flex Gap3">
         <div>
@@ -122,6 +147,9 @@
             </ul>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
